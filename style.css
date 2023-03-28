@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#display,
+#result {
+    color: white;
+    background: gray;
+    width: 218px;
+    height: auto;
+    aspect-ratio: 4 / 1;
+    padding: 8px;
+}
+
+#result {
+    text-align: end;
+}
+
+
+.row {
+    flex: 1;
+    display: flex;
+    width: 240px;
+    height: auto;
+}
+
+.btn {
+    flex: 1;
+    aspect-ratio: 1 / 1;
+    font-weight: bold;
+    font-size: large;
+    margin: 3px;
+}
+
+#multiply,
+#divide,
+#add,
+#subtract {
+    background-color: chocolate;
+    color: darkgreen;
+    border: 0px;
+}
+
+#multiply:hover,
+#divide:hover,
+#add:hover,
+#subtract:hover {
+    background-color: var(--def);
+} 
+
+#multiply:active,
+#divide:active,
+#add:active,
+#subtract:active {
+    background-color: black;
+} 
